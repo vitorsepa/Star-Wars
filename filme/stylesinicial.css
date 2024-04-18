@@ -1,0 +1,90 @@
+body {
+    font-family: Calibri, sans-serif; /* Define a fonte Calibri para todo o documento */
+    font-family: monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    color: rgb(240, 219, 109);
+    align-items: center;
+    border: 50px;
+    border:solid 1px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
+    font-family: Calibri, sans-serif;
+    background-color: black;
+}
+
+main{
+    padding: 10px 40px;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
+    color: rgb(240, 219, 109);    
+    border-radius: 30px;
+    margin: 60px 100px;
+    border:30px;
+    border: solid 1px;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    text-justify: distribute;
+    display: flex;
+}
+
+.a{
+    text-decoration: none;
+    color: rgb(240, 219, 109);    
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin: 10px;
+}
+
+h3{
+    padding: 10px 40px;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.2);
+    color: rgb(240, 219, 109);    
+    border-radius: 30px;
+    background-color: black;
+    margin: 50px 80px;
+    border:30px;
+    border: solid 1px;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    text-justify: distribute;
+    display: flex;
+}
+
+h2 {
+    font-size: 60px;
+    text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.2);
+    color: rgba(240, 219, 109);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meio{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    color: white;
+    text-align: center;
+    margin: 0px 800px;
+}
